@@ -1,0 +1,15 @@
+Library Management System
+
+Za zagon programa je potrebno:
+1. instalirati jdk(java development kit)
+2. instalirati xampp in zagnati MySQL in apache.
+3. na naslovu http://localhost/phpmyadmin/ odpreti novo podatkovno bazo library in na import izbrati file library.sql ki se nahaja v folderu LibraryMenagmentSystem. 
+3. Zagnati program klikom na fajl LibraryMenagmentSystem\dist\LibraryMenagmentSystem.jar
+
+Programa se sastoji iz:
+1. del za vnos članov knjižnice v podatkovno bazo library, tabelo member
+2. del za vnos knjig v podatkovno bazo library, tabelo book
+3. del za izposojo knjig in vnašanje v podatkovno bazo library, tabelo issuebook (unesti številko iskaznice člana knjižnice in prtisniti enter da se pojave vsi podatki o članu)
+4. del za vračilo knjig in vnašanje v podatkovno bazo library, tabelo returnbook(unesti številko iskaznice člana knjižnice in prtisniti enter da se pojave vsi podatki o članu)
+
+Programa je narejena v času od dva tedna.
